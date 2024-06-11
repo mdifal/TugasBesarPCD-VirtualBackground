@@ -94,7 +94,7 @@ def about():
 def index():
     return render_template("home.html", file_path="img/image_here.jpg")
 
-@app.route("/tubes")
+@app.route("/virtual-bg")
 @nocache
 def virtualBG():
     return render_template('virtualBG.html')
