@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron jumbotron-fluid text-white" style="background-color: #1A4D2E;">
+    <div class="container text-center">
+        <h1 class="display-4">Tentang Kami</h1>
+        <p class="lead" style="font-size: 16px;">Kami adalah tim yang berkomitmen untuk menyediakan platform pengolahan citra digital yang inovatif dan mudah digunakan. Dengan pengalaman kami dalam bidang pengolahan citra, kami berupaya untuk memberikan solusi yang memenuhi kebutuhan pengguna dalam mengedit dan meningkatkan kualitas gambar dengan efisien.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="static/img/fauza.jpg" class="card-img-top img-fluid" alt="Fauza Naylassana">
+                <div class="card-body">
+                    <h5 class="card-title">Fauza Naylassana</h5>
+                    <p class="card-text">221511010</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="static/img/difa.jpg" class="card-img-top img-fluid" alt="Muhammad Difa Alghifary">
+                <div class="card-body">
+                    <h5 class="card-title">Muhammad Difa Alghifary</h5>
+                    <p class="card-text">221511020</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="static/img/nisrina.jpg" class="card-img-top img-fluid" alt="Nisrina Wafa Zakiya Hamdani">
+                <div class="card-body">
+                    <h5 class="card-title">Nisrina Wafa Zakiya Hamdani</h5>
+                    <p class="card-text">221511025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card-img-top {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+</style>
+
+{% endblock %}
